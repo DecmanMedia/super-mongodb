@@ -18,7 +18,7 @@ var productShema = new Schema({
       date: Date,
     }],
   }],
-  score: {avg: Number, [{star:Number}]},
+  score: {avgStars: Number, star:[]},
   picture: String
 });
 
