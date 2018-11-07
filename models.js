@@ -18,7 +18,8 @@ var productShema = new Schema({
       date: Date,
     }],
   }],
-  picture: String  
+  score: {avg: Number, [{star:Number}]},
+  picture: String
 });
 
 var supermarketShema = new Schema({
